@@ -9,7 +9,8 @@ html, body, aside, main, section{
   height: 100%;
 }
 section {
-  margin-left: 300px
+  max-width: 900px;
+  padding: 5% 0 0 300px;
 }
 html{
   scroll-behavior: smooth;
@@ -46,4 +47,10 @@ html{
 
 .aside-wrap .menu-link:hover {
   border-bottom: 2px solid;
+}
+/* section home */
+#home .email-link {
+  text-transform: uppercase;
+  color: red;
+  text-decoration: none;
 }
